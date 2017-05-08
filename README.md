@@ -129,4 +129,6 @@ There should be one-- and preferably only one --obvious way to do it.
 8. It's a substitution cipher called [ROT13](https://en.wikipedia.org/wiki/ROT13)
 9. In many languages there are two ways to do the same thing `--no` and `no--`. The message has a hidden example in itself
 
-##
+## Add more
+
+Please feel free to create a PR and add more!
