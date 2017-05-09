@@ -1,4 +1,3 @@
-## Know them all !
 > Just when you thought, Python could not be more fun.
 
 ### 1. Hello World
