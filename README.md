@@ -115,7 +115,17 @@ From the Zen again,
 There should be one-- and preferably only one --obvious way to do it.
 ```
 
+### 10. Naming identifiers can be unspeakably cool
+Just when you thought that working in Python couldn't possibly *be* any more fun,
+```
+>>> from math import pi
+>>> π = pi
+>>> area = π * r**2
 
+>>> résumé = 'knows Python'
+>>> 'Python' in résumé
+True
+```
 
 ## Notes
 1. Easiest hello world program in a language without calling any function
@@ -127,6 +137,7 @@ There should be one-- and preferably only one --obvious way to do it.
 7. Guido van Rossum is a big fan of [Monty Python's Flying Circus](https://en.wikipedia.org/wiki/Monty_Python%27s_Flying_Circus)
 8. It's a substitution cipher called [ROT13](https://en.wikipedia.org/wiki/ROT13)
 9. In many languages there are two ways to do the same thing `--no` and `no--`. The message has a hidden example in itself
+10. Support for unicode character set for naming identifiers was added in Python3. Though, it is not explicitly preferred while writing code, it adds flavour to working with scientific formulas.
 
 ## Add more
 
