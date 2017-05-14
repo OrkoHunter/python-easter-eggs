@@ -8,7 +8,7 @@ Hello World!
 ```
 
 ### 2. The classic
-```
+```py
 >>> import this
 
 The Zen of Python, by Tim Peters
@@ -40,7 +40,7 @@ The Zen of Python was introduced in [PEP 20](https://www.python.org/dev/peps/pep
 
 
 ### 4. A simple life lesson
-```
+```py
 >>> import this
 ...
 >>> love = this
@@ -74,7 +74,7 @@ The name Python has nothing to do with the type of Snake.
 ### 8. The confuscation
 This is how the `this.py` module looks, which prints the Zen of Python.
 
-```
+```py
 s = """Gur Mra bs Clguba, ol Gvz Crgref
 
 Ornhgvshy vf orggre guna htyl.
@@ -117,7 +117,7 @@ There should be one-- and preferably only one --obvious way to do it.
 
 ### 10. Naming identifiers can be unspeakably cool
 Just when you thought that working in Python couldn't possibly *be* any more fun,
-```
+```py
 >>> from math import pi
 >>> π = pi
 >>> area = π * r**2
@@ -126,6 +126,16 @@ Just when you thought that working in Python couldn't possibly *be* any more fun
 >>> 'Python' in résumé
 True
 ```
+
+### 11. Picking a place for meetup?
+```py
+>>> from antigravity import geohash
+>>> # Your location, a date and that date's (or most recent) DJIA opening.
+>>> geohash(37.421542, -122.085589, b'2005-05-26-10458.68')
+37.857713 -122.544543
+```
+This can generate a GPS coordinate in a region which is 1 longitude long and 1
+latitude wide based on your location.
 
 ## Notes
 1. Easiest hello world program in a language without calling any function
@@ -138,6 +148,7 @@ True
 8. It's a substitution cipher called [ROT13](https://en.wikipedia.org/wiki/ROT13)
 9. In many languages there are two ways to do the same thing `--no` and `no--`. The message has a hidden example in itself
 10. Support for unicode character set for naming identifiers was added in Python3. Though, it is not explicitly preferred while writing code, it adds flavour to working with scientific formulas.
+11. The original code is [here](https://github.com/python/cpython/blob/master/Lib/antigravity.py) with the [xkcd comic](https://xkcd.com/426/) referenced, and maybe that's why this is also in the `antigravity` module
 
 ## Add more
 
