@@ -8,7 +8,7 @@ Hello World!
 ```
 
 ### 2. The classic
-```py
+```
 >>> import this
 
 The Zen of Python, by Tim Peters
@@ -147,7 +147,7 @@ latitude wide based on your location.
 7. Guido van Rossum is a big fan of [Monty Python's Flying Circus](https://en.wikipedia.org/wiki/Monty_Python%27s_Flying_Circus)
 8. It's a substitution cipher called [ROT13](https://en.wikipedia.org/wiki/ROT13)
 9. In many languages there are two ways to do the same thing `--no` and `no--`. The message has a hidden example in itself
-10. Support for unicode character set for naming identifiers was added in Python3. Though, it is not explicitly preferred while writing code, it adds flavour to working with scientific formulas.
+10. Support for unicode character set for naming identifiers was added in Python3. Though, it is not explicitly preferred while writing code, it adds flavour to working with scientific formulas
 11. The original code is [here](https://github.com/python/cpython/blob/master/Lib/antigravity.py) with the [xkcd comic](https://xkcd.com/426/) referenced, and maybe that's why this is also in the `antigravity` module
 
 ## Add more
