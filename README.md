@@ -8,7 +8,7 @@ Hello World!
 ```
 
 ### 2. The classic
-```py
+```
 >>> import this
 
 The Zen of Python, by Tim Peters
