@@ -137,6 +137,19 @@ True
 This can generate a GPS coordinate in a region which is 1 longitude long and 1
 latitude wide based on your location.
 
+### 12. The FLUFL - Friendly Language Uncle For Life from [PEP 401 -- BDFL Retirement](https://www.python.org/dev/peps/pep-0401)
+```py
+>>> from __future__ import barry_as_FLUFL
+>>> 1 <> 2
+True
+>>> 1 != 2
+  File "<stdin>", line 1
+    1 != 2
+       ^
+SyntaxError: invalid syntax
+```
+Recognized that the != inequality operator in Python 3.0 was a horrible, finger pain inducing mistake, the FLUFL reinstates the <> diamond operator as the sole spelling.
+
 ## Notes
 1. Easiest hello world program in a language without calling any function
 2. Each and every line is the philosophy of Python's design and is a supreme holy guide
@@ -149,6 +162,7 @@ latitude wide based on your location.
 9. In many languages there are two ways to do the same thing `--no` and `no--`. The message has a hidden example in itself
 10. Support for unicode character set for naming identifiers was added in Python3. Though, it is not explicitly preferred while writing code, it adds flavour to working with scientific formulas
 11. The original code is [here](https://github.com/python/cpython/blob/master/Lib/antigravity.py) with the [xkcd comic](https://xkcd.com/426/) referenced, and maybe that's why this is also in the `antigravity` module
+12. The [PEP 401](https://www.python.org/dev/peps/pep-0401/) is an April Fools' Joke - The PEP's number is 401, i.e. 4/01 or April 1st (April Fools' Day). The PEP states that Guido van Rossum is stepping down. The new title given to him would be pronounced "BDEVIL" (Benevolent Dictator Emeritus Vacationing Indefinitely from the Language) and Guido's successor will be Barry Warsaw, or as he is affectionately known, Uncle Barry. Uncle Barry's official title is "FLUFL" (Friendly Language Uncle For Life). There are in-jokes about the Parrot virtual machine and the "non-existent" Python Secret Underground (possibly a throw-back to ["TINC" on USENET](https://en.wikipedia.org/wiki/There_Is_No_Cabal)).
 
 ## Add more
 
