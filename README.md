@@ -150,6 +150,16 @@ SyntaxError: invalid syntax
 ```
 Recognized that the != inequality operator in Python 3.0 was a horrible, finger pain inducing mistake, the FLUFL reinstates the <> diamond operator as the sole spelling.
 
+### 13. InPynite?
+```py
+>>> infinity = float('infinity')
+>>> hash(infinity)
+314159
+>>> hash(float('-inf'))
+-314159
+```
+A hash is a fixed sized integer that identifies a particular value. On a closer look, the hash of infinity is 10^5 x pi. Interestingly, hash(float('-inf')) yields -10^5 x pi in python3, whereeas -271828 i.e - 10^5 x e in python2.
+
 ## Notes
 1. Easiest hello world program in a language without calling any function
 2. Each and every line is the philosophy of Python's design and is a supreme holy guide
@@ -163,6 +173,7 @@ Recognized that the != inequality operator in Python 3.0 was a horrible, finger 
 10. Support for unicode character set for naming identifiers was added in Python3. Though, it is not explicitly preferred while writing code, it adds flavour to working with scientific formulas
 11. The original code is [here](https://github.com/python/cpython/blob/master/Lib/antigravity.py) with the [xkcd comic](https://xkcd.com/426/) referenced, and maybe that's why this is also in the `antigravity` module
 12. The [PEP 401](https://www.python.org/dev/peps/pep-0401/) is an April Fools' Joke - The PEP's number is 401, i.e. 4/01 or April 1st (April Fools' Day). The PEP states that Guido van Rossum is stepping down. The new title given to him would be pronounced "BDEVIL" (Benevolent Dictator Emeritus Vacationing Indefinitely from the Language) and Guido's successor will be Barry Warsaw, or as he is affectionately known, Uncle Barry. Uncle Barry's official title is "FLUFL" (Friendly Language Uncle For Life). There are in-jokes about the Parrot virtual machine and the "non-existent" Python Secret Underground (possibly a throw-back to ["TINC" on USENET](https://en.wikipedia.org/wiki/There_Is_No_Cabal)).
+13. [Source](https://www.reddit.com/r/Python/comments/6wrd8t/nice_lil_easter_egg_i_suppose/).
 
 ## Add more
 
