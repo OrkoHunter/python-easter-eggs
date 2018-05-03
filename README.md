@@ -52,7 +52,7 @@ False
 False
 >>> love is not True or False
 True
->>> love is not True or False; love is love  # FML
+>>> love is not True or False; love is love
 True
 ```
 
