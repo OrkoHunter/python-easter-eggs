@@ -160,6 +160,26 @@ Recognized that the != inequality operator in Python 3.0 was a horrible, finger 
 ```
 A hash is a fixed sized integer that identifies a particular value. On a closer look, the hash of infinity is 10^5 x pi. Interestingly, hash(float('-inf')) yields -10^5 x pi in python3, whereeas -271828 i.e - 10^5 x e in python2.
 
+### 14. types.CodeType -  Not for the faint of heart
+If you start digging deep into Python's internals you will get a warning in `help` output for `types.CodeType`
+```py
+>>> import types
+>>> help(types.CodeType)
+...
+Help on class code in module builtins:                                                    
+                                                                                          
+class code(object)                                                                        
+ |  code(argcount, kwonlyargcount, nlocals, stacksize, flags, codestring,                 
+ |        constants, names, varnames, filename, name, firstlineno,                        
+ |        lnotab[, freevars[, cellvars]])                                                 
+ |                                                                                        
+ |  Create a code object.  Not for the faint of heart.                                    
+ |                                                                                        
+ |  Methods defined here:                                                                 
+ |                                                                                                                                       
+ ...
+ ```
+
 ## Notes
 1. Easiest hello world program in a language without calling any function
 2. Each and every line is the philosophy of Python's design and is a supreme holy guide
