@@ -158,7 +158,7 @@ Recognized that the != inequality operator in Python 3.0 was a horrible, finger 
 >>> hash(float('-inf'))
 -314159
 ```
-A hash is a fixed sized integer that identifies a particular value. On a closer look, the hash of infinity is 10^5 x pi. Interestingly, hash(float('-inf')) yields -10^5 x pi in python3, whereeas -271828 i.e - 10^5 x e in python2.
+A hash is a fixed sized integer that identifies a particular value. On a closer look, the hash of infinity is 10^5 x pi. Interestingly, hash(float('-inf')) yields -10^5 x pi in python3, whereas -271828 i.e - 10^5 x e in python2.
 
 ### 14. types.CodeType -  Not for the faint of heart
 If you start digging deep into Python's internals you will get a warning in `help` output for `types.CodeType`
