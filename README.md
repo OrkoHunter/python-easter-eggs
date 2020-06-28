@@ -54,6 +54,7 @@ False
 True
 >>> love is not True or False; love is love  # FML
 True
+True
 ```
 
 ### 5. Comics, yeah.
@@ -106,8 +107,7 @@ print("".join([d.get(c, c) for c in s]))
 ```
 
 The code for the Zen violates itself. It's not beautiful but ugly, not explicit but implicit.
-This would probably be the *only* module to go against the spirit of what it says itself.
-.
+This would probably be the *only* module to go against the spirit of what it says.
 
 ### 9. C/C++ anyone?
 From the Zen again,
