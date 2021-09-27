@@ -180,7 +180,7 @@ class code(object)
  ...
  ```
 
-### 15. python 3.9 PEG parser
+### 15. Python 3.9 PEG parser
 `__peg_parser__` is a keyword in python 3.9, will throw a syntax error if used
 ```py
 >>> __peg_parser__
