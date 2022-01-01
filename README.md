@@ -5,6 +5,8 @@
 ```py
 >>> import __hello__
 Hello World!
+>>> import __phello__
+Hello world!
 ```
 
 ### 2. The classic
