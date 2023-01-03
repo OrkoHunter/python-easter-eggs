@@ -9,6 +9,17 @@ Hello World!
 Hello world!
 ```
 
+Hello world for python >= 3.11
+
+```py
+>>> import __hello__
+>>> __hello__.main()
+Hello World!
+>>> import __phello__
+>>> __phello__.main()
+Hello World!
+```
+
 ### 2. The classic
 ```
 >>> import this
